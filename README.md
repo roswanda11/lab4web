@@ -375,7 +375,7 @@
 
 ![image](https://github.com/roswanda11/lab4web/assets/115516632/df73087d-f1ae-4c1d-90f6-da32bac77d19)
 
-# Membuat Hero Panel
+### Membuat Hero Panel
 
 - Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
 
