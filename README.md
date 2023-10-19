@@ -625,13 +625,138 @@
       
     ![image](https://github.com/roswanda11/lab4web/assets/115516632/ce5dee10-5933-485e-adc7-418a0633dcef)
 
-### Melakukan validasi dokumen html ```lab4_layout.html``` dengan mengakses http://validator.w3.org
-
-
 # Pertanyaan dan Tugas
 1. Tambahkan Layout untuk menu About
 => buat single layout yang berisi deskripsi, portfolio, dll
-2. Tambahkan layout untuk menu Contact
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>  
+            <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Layout Sederhana</title>
+             <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div id="container">
+                <header>
+                    <h1>Layout Sederhana</h1>
+                   </header>
+                   <nav>
+                    <a href="home.html">Home</a>
+                    <a href="artikel.html">Artikel</a>
+                    <a href="about.html" class="active">About</a>
+                    <a href="kontak.html">Kontak</a>
+                   </nav>
+                  
+                   <section id="hero"><h1>About</h1>
+                   <div class="jumbotron">
+                    <img src="DSC08536.JPG"title=""height="200">
+                    <h1>Roswanda Nuraini</h1>
+                    <p>Web Develover | Mahasiswa</p>
+                    <h2>Portofolio</h2>
+                    <hr>
+                            
+                    <p>Hallo, Saya adalah Mahasiswa Semester 3 Jurusan Teknik Informatika 
+                        Universitas Pelita Bangsa. Aktif dalam keanggotaan organisasi kampus (HIMA).
+                        Memiliki ketertarikan di bidang <i>Web Developer</i> dan <i>Data Analyst</i></i>. </p></div>
+                                
+                </section>           
+                 
+                <footer>
+                <p>&copy; 2023 - Universitas Pelita Bangsa</p>
+               </footer>
+            </div>
+        </body>
+        </html>
+
+![image](https://github.com/roswanda11/lab4web/assets/115516632/57f8d46c-f901-4601-9029-fc39a7747c0e)
+
+3. Tambahkan Layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
 
+        <!DOCTYPE html>
+        <html lang="en">
+        <head> 
+            <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Layout Sederhana</title>
+             <link rel="stylesheet" href="style.css">
+             <style>
+                form p > label {
+                display: inline-block;
+                width: 100px;
+                }
+                form input[type="text"], form textarea {
+                border: 1px solid #197a43;
+                }
+                
+                form input[type="submit"] {
+                border: 1px solid #197a43;
+                background-color: #197a43;
+                color: #ffffff;
+                font-weight: bold;
+                padding: 5px 15px;
+                }
+               </style>
+        </head>
+        <body>
+             <div id="container">
+                <header>
+                    <h1>Layout Sederhana</h1>
+                   </header>
+                   <nav>
+                    <a href="home.html">Home</a>
+                    <a href="artikel.html">Artikel</a>
+                    <a href="about.html">About</a>
+                    <a href="kontak.html" class="active">Kontak</a>
+                   </nav>
+                   
+                   <section id="hero"><h1>Kontak</h1>
+                    
+        <form action=" formulir.html" method="get">
+         <p>
+        <label for="nama">Nama</label>
+        <input type="text" name="nama">
+        </p>
+        <br>
+        <p>
+        <label for="wa">No Wa</label>
+        <input type="text" name="wa">
+        </p>
+        <br>
+        <p>
+        <label for="email">Email</label>
+        <input type="text" name="email">
+        </p>
+        <br>
+        <p>
+        <label for="jeniskelamin">Jenis Kelamin</label>
+        <input type="text" name="jeniskelamin">    
+        </p>
+        <br>
+        <p> 
+        <label for="kota">Kota</label>
+        <input type="text" name="kota">    
+        </p>
+         <br>
+         
+         <p>
+            <label for="komentar">Komentar</label>
+            <textarea id="komentar" name="komentar" cols="100" rows="10">Komentar anda</textarea>
+            </p>
+        <br />
+         
+        <input type="submit" value="Kirim komentar" >
+         
+        </form>
+                 </section>
+                 <footer>
+                    <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+                   </footer>
+            </div>
+            
+        </body>
+        </html>
   
+![image](https://github.com/roswanda11/lab4web/assets/115516632/29b53236-c88a-4e58-84b9-dcdb27e3957c)
