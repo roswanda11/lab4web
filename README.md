@@ -517,7 +517,7 @@
 
 ![image](https://github.com/roswanda11/lab4web/assets/115516632/57f8d46c-f901-4601-9029-fc39a7747c0e)
 
-3. Tambahkan Layout untuk menu Contact
+2. Tambahkan Layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
 
         <!DOCTYPE html>
